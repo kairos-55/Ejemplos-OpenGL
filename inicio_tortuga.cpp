@@ -84,8 +84,9 @@ void keyboard(unsigned char key, int x, int y) {
 		case 'h':
 			printf("help\n\n");
 			printf("c - Toggle culling\n");
-			printf("1 - Rotate in Z axis\n");
-			printf("2 - Rotate in X axis\n");
+			printf("1 - Rotate in X axis\n");
+			printf("2 - Rotate in Y axis\n");
+			printf("3 - Rotate in Z axis\n");
 			printf("a - Show axes\n");
 			printf("u - View from up\n");
 			printf("d - View from down\n");
@@ -96,7 +97,7 @@ void keyboard(unsigned char key, int x, int y) {
 			printf("q/escape - Quit\n\n");
 			break;
 		case 'c':
-			if (glIsEnabled(GL_CULL_FACE)){
+			if (glIsEnabled(GL_CULL_FACE)){		
 				glDisable(GL_CULL_FACE);
 			}
 			else{
@@ -417,7 +418,7 @@ int main(int argc, char** argv) {
 	glutInitDisplayMode(GLUT_RGB | GLUT_DEPTH |	GLUT_DOUBLE); 
 	glutInitWindowSize(512, 512);
 	glutInitWindowPosition(20, 20);
-	glutCreateWindow("Práctica 1");	
+	glutCreateWindow("Practica 1");	
 	glutDisplayFunc(display);	
 	glutReshapeFunc(reshape);
 	glutKeyboardFunc(keyboard);
