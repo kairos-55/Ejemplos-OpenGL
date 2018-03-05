@@ -1,6 +1,13 @@
-//Autores: Jesús Alberto Ramírez Otálvaro, Erik López Pacheco
-//Código: 1422554, 1430406
 
+/* 
+ * File:   inicio_tortuga.cpp
+ * Author: Camilo José Cruz Rivera 1428907
+ * Author: Erik López Pacheco
+ * Author: Jesús Alberto Ramírez Otálvaro 1422554
+ *
+ * Created on 27 de febrero de 2018, 13:21
+ */
+//
 #include "GL/freeglut.h"
 #include "GL/gl.h"
 #include <stdio.h>
